@@ -15,5 +15,5 @@ def prime?(integer)
   end
 end
 
-puts Benchmark.measure{prime?(1247)}
+puts Benchmark.measure{prime?(105557)}
 # > 0.000000   0.000000   0.000000 (  0.000005)
