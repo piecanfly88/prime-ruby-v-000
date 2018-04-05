@@ -15,4 +15,4 @@ def prime?(integer)
   end
 end
 
-puts Benchmark.measure{prime?(122222)}
+puts Benchmark.measure{prime?(2)}
