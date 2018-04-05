@@ -1,3 +1,4 @@
+require 'benchmark'
 def prime?(integer)
   divisor = 2
   while integer % divisor != 0
@@ -13,3 +14,5 @@ def prime?(integer)
     false
   end
 end
+
+puts benchmark.measure(prime?(9))
