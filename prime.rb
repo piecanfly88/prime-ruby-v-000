@@ -14,10 +14,10 @@
 #     false
 #   end
 # end
-# 
+#
 # puts Benchmark.measure{prime?(105557)}
 # #> 0.000000   0.000000   0.000000 (  0.006580)
-# 
+#
 # puts Benchmark.measure{prime?(101013)}
 # #> 0.000000   0.000000   0.000000 (  0.000004)
 
