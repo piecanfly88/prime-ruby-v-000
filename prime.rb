@@ -15,4 +15,5 @@ def prime?(integer)
   end
 end
 
-puts Benchmark.measure(prime?(9))
+puts Benchmark.measure{prime?(9)}
+
