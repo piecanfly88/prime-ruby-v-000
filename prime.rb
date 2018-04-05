@@ -1,4 +1,4 @@
-require 'benchmark'
+# require 'benchmark'
 def prime?(integer)
   divisor = 2
   while integer % divisor != 0
@@ -15,4 +15,5 @@ def prime?(integer)
   end
 end
 
-puts Benchmark.measure{prime?(2)}
+# puts Benchmark.measure{prime?(2)}
+#> 0.000000   0.000000   0.000000 (  0.000005)
