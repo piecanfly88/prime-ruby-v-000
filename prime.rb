@@ -35,7 +35,7 @@ def prime?(integer)
   return integer == divisor
 end
 
-puts Benchmark.measure{prime?(105557)}
+puts Benchmark.measure{prime?(105557212312123123123123123123123123123454455)}
 #> 0.000000   0.000000   0.000000 (  0.006580)
 
 puts Benchmark.measure{prime?(101013)}
