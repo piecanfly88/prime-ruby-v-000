@@ -32,7 +32,12 @@ def prime?(integer)
       divisor += 1
     end
   end
-  return integer == divisor
+  # return integer == divisor
+  if integer == divisor
+    true
+  else
+    false
+  end
 end
 
 puts Benchmark.measure{prime?(105557212312123123123123123123123123123454455)}
